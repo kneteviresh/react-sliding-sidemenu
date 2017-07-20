@@ -136,3 +136,11 @@ ReactDOM.render(
     <td>Array of objects (explained below)</td>
   </tr> 
 </table>
+
+## functions 
+
+### onLinkItemClick(clickedLink)
+   this function can be passed as props to the component , which will be executed on click of the menu links.
+function will recieve an arguement which holds the details of the clicked link.
+
+
