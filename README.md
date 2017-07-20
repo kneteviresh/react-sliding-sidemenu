@@ -35,40 +35,77 @@ ReactDOM.render(
 )
 ```
 
+## Available features from props
+
 <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Props</th>
+    <th>Description</th>
+    <th>Examples</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>top</td>
+    <td>sets the margin-top</td>
+    <td>number :  80,100,150 etc</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>expandIconStyle</td>
+    <td>different icons available from bootstrap 3.3.7</td>
+    <td>plus, chevron-right , arrow-right, circle-arrow-right,menu-right,menu-hamburger </td>
+
   </tr>
   <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
+    <td>profileVisible</td>
+    <td>if true , profile section will be visible</td>
+    <td>trus,false</td>
+
   </tr>
   <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
+    <tdtextColor</td>
+    <td>Color of the text inside side menu</td>
+    <td>string : 'black' ,'#000'</td>
+
   </tr>
   <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
+    <td>fontStyle</td>
+    <td>Font style/font family of the text inside side menu</td>
+    <td>'Arial', 'Helvetica', 'sans-serif'</td>
+
   </tr>
   <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
+    <td>fontSize</td>
+    <td>sets the font size of the text inside side menu</td>
+    <td>number: 25(default),30 50</td>
+  </tr>
+  
+  
+    <tr>
+    <td>ProfileName</td>
+    <td>Sets the profile name </td>
+    <td>string: 'any string'</td>
+  </tr>
+  
+      <tr>
+    <td>ProfileName</td>
+    <td>Sets the profile name </td>
+    <td>string: 'any string'</td>
+  </tr>
+  
+      <tr>
+    <td>hasReactRouterLinks</td>
+    <td>pass this as true if application is using react-router to navigate </td>
+    <td>true,false</td>
+  </tr>
+  
+      <tr>
+    <td>descriptionVisible</td>
+    <td>if true , description section will be visible </td>
+    <td>true,false</td>
+  </tr>
+  
+      <tr>
+    <td>sidebarTitle</td>
+    <td>Title of the sidebar</td>
+    <td>string: 'any string'(30 characters are preferred)</td>
   </tr>
 </table>
