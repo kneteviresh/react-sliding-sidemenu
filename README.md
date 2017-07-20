@@ -147,6 +147,7 @@ function will recieve an arguement which holds the details of the clicked link.
 ## **dataForLinks** sample object
 
 **href** below indicates the navigation to be routed on click on the links.(same as href for anchor tag)
+**Note : ** all properties are case sensitive.
 
 ```js
 dataForLinks:
