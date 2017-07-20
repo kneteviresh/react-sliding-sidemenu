@@ -9,6 +9,17 @@ this will gives a quick access to menu links to navigate through different route
 ## Installation
 `npm install react-sliding-sidemenu --save`
 
+## customisable features
+* color of the text inside the sidebar menu
+* margin-top of the sidebar
+* font style
+* ordr of content inside sidebar (profile,description and links sections)
+* upto 2 levels of sub links
+* customisable expand icon style
+* links will support react-router
+* profile and description sections can be hidden if not required.
+* full view of the profile pic on click.
+
 ## Using react-sliding-sidemenu
 
 import componnent from  :- **react-sliding-sidemenu_** in your component.
@@ -189,3 +200,5 @@ dataForLinks:
             }
          ]
 ```
+
+
