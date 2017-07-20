@@ -79,31 +79,31 @@ ReactDOM.render(
   </tr>
   
   
-    <tr>
+  <tr>
     <td>ProfileName</td>
     <td>Sets the profile name </td>
     <td>string: 'any string'</td>
   </tr>
   
-    <tr>
+  <tr>
     <td>ProfileName</td>
     <td>Sets the profile name </td>
     <td>string: 'any string'</td>
   </tr>
   
-    <tr>
+  <tr>
     <td>hasReactRouterLinks</td>
     <td>pass this as true if application is using react-router to navigate </td>
     <td>true,false</td>
   </tr>
   
-    <tr>
+  <tr>
     <td>descriptionVisible</td>
     <td>if true , description section will be visible </td>
     <td>true,false</td>
   </tr>
   
-    <tr>
+  <tr>
     <td>sidebarTitle</td>
     <td>Title of the sidebar</td>
     <td>string: 'any string'(30 characters are preferred)</td>
