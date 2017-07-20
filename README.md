@@ -108,4 +108,17 @@ ReactDOM.render(
     <td>Title of the sidebar</td>
     <td>string: 'any string'(30 characters are preferred)</td>
   </tr>
+  
+  <tr>
+    <td>descriptionContent</td>
+    <td>free text or html element to be passed. this will be the content of the description section.</td>
+    <td>string: 'any free text ' or '<p>any free text</p>'</td>
+  </tr>
+  
+   <tr>
+    <td>orderOfContents</td>
+    <td>specifies in which order , profile,description and links section should be visible</td>
+    <td>string: 'any free text ' or '<p>any free text</p>'</td>
+  </tr>
+  
 </table>
