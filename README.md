@@ -153,6 +153,7 @@ ReactDOM.render(
 ### onLinkItemClick(clickedLink)
    this function can be passed as props to the component , which will be executed on click of the menu links.
 function will recieve an arguement which holds the details of the clicked link.
+**Note** to use above function pass href for that link as "#".At a time either href or onClick one of can be used.
 
 
 ## **dataForLinks** sample object
