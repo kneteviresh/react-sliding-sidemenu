@@ -124,4 +124,15 @@ ReactDOM.render(
     </td>
   </tr>
   
+  <tr>
+    <td>profileImage</td>
+    <td>Provide the image for profile picture</td>
+    <td>import image variable</td>
+  </tr>
+  
+  <tr>
+    <td>dataForLinks</td>
+    <td>array of objects to be passed for generating links</td>
+    <td>Array of objects (explained below)</td>
+  </tr> 
 </table>
