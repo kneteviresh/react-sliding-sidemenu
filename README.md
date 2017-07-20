@@ -4,7 +4,7 @@
 this will gives a quick access to menu links to navigate through different routes in application. 
 
 
-
+**[Live Demo](https://kneteviresh.github.io//)** 
 
 ## Installation
 `npm install react-sliding-sidemenu --save`
