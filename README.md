@@ -117,8 +117,11 @@ ReactDOM.render(
   
    <tr>
     <td>orderOfContents</td>
-    <td>specifies in which order , profile,description and links section should be visible</td>
-    <td>string: 'any free text ' or '<p>any free text</p>'</td>
+    <td>specifies in which order the profile,description and links section should be visible</td>
+    <td>object : orderOfContents{profile: 1,
+            description: 2,
+            links: 3 } 
+    </td>
   </tr>
   
 </table>
