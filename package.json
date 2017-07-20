@@ -1,6 +1,6 @@
 {
   "name": "react-sliding-sidemenu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Customisable Responsive sliding sidebar menu , can be easily intigrated within application.",
   "main": "src/index.js",
   "scripts": {
