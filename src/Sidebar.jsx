@@ -19,7 +19,7 @@ class Sidebar extends Component {
 
     static defaultProps = {
         top: 0,
-        fontSize: 25,
+        fontSize: 20,
         textColor: 'black',
         fontStyle: 'sans-serif', //'Arial, Helvetica, sans-serif',
         profileVisible: true,
@@ -31,7 +31,7 @@ class Sidebar extends Component {
         descriptionContent: <p>
             <b>click to expand profile image</b> <br />
             React-sliding-sidemenu is a fully customisable, responsive overlay side menu sliding from left.
-            this is the description field which will be user passed free text or DOM element.
+            this is the description section which will be user passed free text or DOM element.
             Side menu has following sections
             <ul>
                 <li>Header</li>
@@ -50,58 +50,58 @@ class Sidebar extends Component {
         [
             {
                 mainLink: "Main Link 1",
-                href: "www.google.com",
+                href: "#",
                 subLinks: [
                     {
                         subLink: "Sub Link 1",
-                        href: "www.google.com",
+                        href: "#",
                         childLinks: [
                             {
                                 childLink: 'Child Link 1',
-                                href: 'www.google.com'
+                                href: '#'
                             },
                             {
                                 childLink: 'Child Link 2',
-                                href: 'www.google.com'
+                                href: '#'
                             }
                         ]
                     },
                     {
                         subLink: "Sub Link 2",
-                        href: "www.google.com",
+                        href: "#",
                         childLinks: []
                     },
                     {
                         subLink: "SubLink 3",
-                        href: "www.google.com",
+                        href: "#",
                         childLinks: []
                     }
                 ]
             },
             {
                 mainLink: "Main Link 2",
-                href: "www.google.com",
+                href: "#",
                 subLinks: [
                     {
                         subLink: "Sub Link 1",
-                        href: "www.google.com",
+                        href: "#",
                         childLinks: []
                     },
                     {
                         subLink: "Sub Link 2",
-                        href: "www.google.com",
+                        href: "#",
                         childLinks: []
                     },
                     {
                         subLink: "Sub Link 3",
-                        href: "www.google.com",
+                        href: "#",
                         childLinks: []
                     }
                 ]
             },
             {
                 mainLink: "Main Link 3",
-                href: "www.google.com",
+                href: "#",
                 subLinks: []
             }
         ]
@@ -215,16 +215,6 @@ class Sidebar extends Component {
                         </SidebarDescription> :
                             <SidebarLinks sidebarLinksProps={sidebarLinksProps}>
                             </SidebarLinks>}
-
-
-                    {/* 
-                    <SidebarProfile SidebarProfileProps={SidebarProfileProps}><hr /></SidebarProfile>
-
-                    <SidebarLinks hasReactRouterLinks={hasReactRouterLinks} fontSize={fontSize} dataForLinks={this.props.dataForLinks}><hr />
-                    </SidebarLinks>
-
-                    <SidebarDescription sidebarContentProps={sidebarContentProps}><hr />
-                    </SidebarDescription> */}
 
                     <SidebarFooter font={fontSize} />
                 </div>

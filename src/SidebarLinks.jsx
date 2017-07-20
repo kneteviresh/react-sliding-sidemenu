@@ -65,12 +65,12 @@ class SidebarLinks extends Component {
                         {this.props.sidebarLinksProps.hasReactRouterLinks ?
                             <Link style={{
                                 'color': this.props.sidebarLinksProps.textColor
-                            }} className="childLinks anchorLinks" to='/dummy' >
+                            }} className="childLinks anchorLinks" to={childLink.href} >
                                 {childLink.childLink}
                             </Link> :
                             <a style={{
                                 'color': this.props.sidebarLinksProps.textColor
-                            }} className="childLinks anchorLinks" href="/dummy" onClick={(e) => this.handleMainLinkClick(chilldLink, e)} >{childLink.childLink}
+                            }} className="childLinks anchorLinks" href={childLink.href}onClick={(e) => this.handleMainLinkClick(chilldLink, e)} >{childLink.childLink}
                             </a>}
                     </div>
                 </li>
@@ -101,12 +101,12 @@ class SidebarLinks extends Component {
                         {this.props.sidebarLinksProps.hasReactRouterLinks ?
                             <Link style={{
                                 'color': this.props.sidebarLinksProps.textColor
-                            }} className="SubLinks anchorLinks" to='/dummy' >
+                            }} className="SubLinks anchorLinks" to={subLink.href} >
                                 {subLink.subLink}
                             </Link> :
                             <a style={{
                                 'color': this.props.sidebarLinksProps.textColor
-                            }} className="SubLinks anchorLinks" href="/dummy" onClick={(e) => this.handleMainLinkClick(subLink, e)} >{subLink.subLink}
+                            }} className="SubLinks anchorLinks" href={subLink.href} onClick={(e) => this.handleMainLinkClick(subLink, e)} >{subLink.subLink}
                             </a>}
                     </div>
                     {subLink.childLinks.length ? this.getChildLinks(subLink.childLinks, key) : null}
@@ -139,12 +139,12 @@ class SidebarLinks extends Component {
                         {this.props.sidebarLinksProps.hasReactRouterLinks ?
                             <Link style={{
                                 'color': this.props.sidebarLinksProps.textColor
-                            }} className="MainLinks anchorLinks" to='/dummy' >
+                            }} className="MainLinks anchorLinks" to={link.href} >
                                 {link.mainLink}
                             </Link> :
                             <a style={{
                                 'color': this.props.sidebarLinksProps.textColor
-                            }} className="MainLinks anchorLinks" onClick={(e) => this.handleMainLinkClick(link, e)} href="/dummy">{link.mainLink}
+                            }} className="MainLinks anchorLinks" onClick={(e) => this.handleMainLinkClick(link, e)} href={link.href}>{link.mainLink}
                             </a>}
                     </div>
                     {link.subLinks.length ? this.getSubLinks(link.subLinks, key) : null}
