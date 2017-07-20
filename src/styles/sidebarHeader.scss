@@ -1,0 +1,26 @@
+.sidebarHeader{
+    height:auto;
+    //font-size: 30px;
+    width: 80%;
+    position: initial;
+    font-family: sans-serif;
+    transition: all 1s;
+    margin: 5px 25px;
+    .sidebarHeader-text{
+        left:10px;
+        margin: 10px;
+    }
+    .sidebarHeader-close-button{
+        color:black;
+        font-size: 35px;
+        text-decoration: none;
+        position: absolute;
+        right:0px;
+        top: 10px;
+        padding:5px 10px 0 10px;
+    }
+    .sidebarHeader-close-button:hover .sidebarHeader-close-button:active .sidebarHeader-close-button:focus{
+        text-decoration: none;
+        color: black;
+    }
+}

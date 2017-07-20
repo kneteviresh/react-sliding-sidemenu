@@ -1,0 +1,129 @@
+.sidebarLinks{
+    height:auto;
+    width: auto;
+    margin: 15px;
+}
+.sidebarLink-MainList{
+    list-style: none;
+    padding: 0px;
+}
+
+.sidebarLink-MainListItem{
+    height:auto;
+    margin-bottom: 15px;
+}
+
+.sidebarLink-SubListItem{
+    list-style: none;
+    padding: 5px 10px;
+    color: white
+}
+
+.sidebarLink-childListItem{
+    height: auto;
+    margin: 10px;
+}
+.SubLinks.anchorLinks{
+    height:35px;
+    width: 100%;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    transition: all 1s;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.childLinks.anchorLinks{
+    height:25px;
+    width: 100%;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.anchorLinks:hover,.anchorLinks:focus,.anchorLinks:active{
+        text-decoration: none;
+        //color: white;
+        //background-color: black;
+}
+
+.SubLinks:hover,.SubLinks:focus,.SubLinks:active{
+    text-decoration: none;
+    //background-color: black;
+    //color: white;
+    transition: all 0.5s;
+    border-left: 5px solid black;
+    .anchorLinks{
+        color:white;
+        font-size: 15px;
+    }
+}
+
+.childLinks:hover,.childLinks:focus,.childLinks:active{
+    text-decoration: none;
+    transition: all 0.5s;
+    border-left: 5px solid black;
+    .anchorLinks{
+        color:white;
+        font-size: 15px;
+    }
+}
+
+hr {
+    margin: 5px;
+    border-top: 1px solid lightgrey;
+}
+
+.MainLinks{
+    height: 45px;
+    width: 100%;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.MainLinks:hover,.MainLinks:focus,.MainLinks:active{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+    border-left: 15px solid black;
+}
+
+.MainLinksAndExpandparent:hover .MainLinksAndExpandparent:active .MainLinksAndExpandparent:focus{
+        background-color: black;
+}
+
+.sidebarLink-SubMenuList{
+    height: auto;
+    width: auto;
+    background-color: white;
+    transition: all 1s;
+    margin: 4px;
+}
+
+.expandSubMenuIcon{
+    color:black;
+    //font-size: 15px;
+    margin-left: 20px;
+}
+
+.expandChildMenuIcon{
+        color:black;
+    //font-size: 15px;
+    margin-left: 20px;
+    font-size: 18px;
+    &:hover,&:focus,&:active{
+        color:black;
+        transition: all 0.4s
+    }
+}
+
+.expandSubMenuIcon:hover,.expandSubMenuIcon:focus,.expandSubMenuIcon:active{
+    color:black;
+    transition: all 0.4s;
+}

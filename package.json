@@ -1,0 +1,44 @@
+{
+  "name": "react-sliding-sidemenu",
+  "version": "1.0.0",
+  "description": "Customisable Responsive sliding sidebar menu , can be easily intigrated within application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 3005 --history-api-fallback",
+    "build:prod": "webpack -p"
+  },
+   "keywords": [
+    "sidebar",
+    "sidemenu",
+    "react sidemenu",
+    "react sidebar",
+    "sliding sidemenu",
+    "sliding sidebar",
+    "responsive sidebar"
+  ],
+  "author": "Veeresh Nete",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router-dom": "^4.1.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2"
+  }
+}
