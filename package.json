@@ -2,7 +2,7 @@
   "name": "react-sliding-sidemenu",
   "version": "1.0.0",
   "description": "Customisable Responsive sliding sidebar menu , can be easily intigrated within application.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "npm run build",
     "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 3005 --history-api-fallback",
