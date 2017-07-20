@@ -17,6 +17,14 @@
     "sliding sidebar",
     "responsive sidebar"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kneteviresh/react-sliding-sidemenu"
+  },
+  "homepage": "https://github.com/kneteviresh/react-sliding-sidemenu#readme",
+  "directories": {
+    "src": "Source code"
+  },
   "author": "Veeresh Nete",
   "license": "MIT",
   "dependencies": {
