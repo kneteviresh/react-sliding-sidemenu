@@ -29,7 +29,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Sidebar from 'react-sliding-sidemenu'
 
-class SidebarFooter extends Component {
+class App extends React.Component {
     render() {
         return (
             <div>
