@@ -144,3 +144,42 @@ ReactDOM.render(
 function will recieve an arguement which holds the details of the clicked link.
 
 
+## dataForLinks sample object
+
+import componnent from  :- **react-sliding-sidemenu_** in your component.
+pass props to the component with data and avaialbe props to customise and you are done.
+```js
+dataForLinks:
+        [
+            {
+                mainLink: "Main Link 1",
+                href: "passtheLink",
+                subLinks: [
+                    {
+                        subLink: "Sub Link 1",
+                        href: "passtheLink",
+                        childLinks: [
+                            {
+                                childLink: 'Child Link 1',
+                                href: 'passtheLink'
+                            },
+                            {
+                                childLink: 'Child Link 2',
+                                href: 'passtheLink'
+                            }
+                        ]
+                    },
+                    {
+                        subLink: "Sub Link 2",
+                        href: "passtheLink",
+                        childLinks: []
+                    },
+                    {
+                        subLink: "SubLink 3",
+                        href: "passtheLink",
+                        childLinks: []
+                    }
+                ]
+            }
+         ]
+```
