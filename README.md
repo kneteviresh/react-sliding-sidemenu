@@ -13,7 +13,7 @@ this will gives a quick access to menu links to navigate through different route
 * color of the text inside the sidebar menu
 * margin-top of the sidebar
 * font style
-* ordr of content inside sidebar (profile,description and links sections)
+* order of content inside sidebar (profile,description and links sections)
 * upto 2 levels of sub links
 * customisable expand icon style
 * links will support react-router
@@ -89,12 +89,6 @@ ReactDOM.render(
     <td>number: 25(default),30 50</td>
   </tr>
   
-  
-  <tr>
-    <td>ProfileName</td>
-    <td>Sets the profile name </td>
-    <td>string: 'any string'</td>
-  </tr>
   
   <tr>
     <td>ProfileName</td>
