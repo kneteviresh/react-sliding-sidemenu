@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './styles/sidebar.scss';
-import SidebarHeader from './SidebarHeader.jsx';
-import SidebarLinks from './SidebarLinks.jsx';
-import SidebarDescription from './sidebarDescription.jsx';
-import SidebarProfile from './SidebarProfile.jsx';
-import SidebarFooter from './SidebarFooter.jsx';
+import SidebarHeader from './SidebarHeader.js';
+import SidebarLinks from './SidebarLinks.js';
+import SidebarDescription from './sidebarDescription.js';
+import SidebarProfile from './SidebarProfile.js';
+import SidebarFooter from './SidebarFooter.js';
 import defaultPic from './profilePic.jpg';
 
 
@@ -28,7 +28,7 @@ class Sidebar extends Component {
         descriptionVisible: true,
         expandIconStyle: 'menu-hamburger',
         sidebarTitle: 'React sliding sidebar',
-        descriptionContent: <p>
+        descriptionContent: <div>
             <b>click to expand profile image</b> <br />
             React-sliding-sidemenu is a fully customisable, responsive overlay side menu sliding from left.
             this is the description section which will be user passed free text or DOM element.
@@ -39,7 +39,7 @@ class Sidebar extends Component {
                 <li>Description</li>
                 <li>Quick Links</li>
             </ul>
-        </p>,
+        </div>,
         orderOfContents: {
             profile: 1,
             description: 2,
