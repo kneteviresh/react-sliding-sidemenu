@@ -26,7 +26,7 @@ class SidebarProfile extends Component {
                 <div className="sidebarProfile">
                     <div className="sidebarProfile-profileImage">
                         <img onClick={this.toggleImageView}
-                            className={`sidebarProfile-profileImage-image ${(this.state.imageFullView ? 'fullView' : 'img-circle')}`}
+                            className={`sidebarProfile-profileImage-image ${(this.state.imageFullView ? 'fullView' : 'circleView')}`}
                             src={this.props.SidebarProfileProps.profileImage}
                             alt="profile picture" />
                         {!this.state.imageFullView && <div style={{

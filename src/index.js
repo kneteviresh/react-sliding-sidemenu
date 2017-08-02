@@ -1,6 +1,3 @@
-import React, { Component } from 'react';
-import Sidebar from './Sidebar.jsx';
-import ReactDOM from 'react-dom';
+import Sidebar from './Sidebar.js';
 
-ReactDOM.render(<Sidebar />,document.getElementById('app'))
-//export default Sidebar;
+export default Sidebar;

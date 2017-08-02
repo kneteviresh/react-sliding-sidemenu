@@ -30,6 +30,12 @@
             cursor: pointer;
             transition: all 1s;
         }
+        .sidebarProfile-profileImage-image.circleView{
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 1s;
+        }
+
         .sidebarProfile-userName{
             color:black;
             font-size: 25px;
