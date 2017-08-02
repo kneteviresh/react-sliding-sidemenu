@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles/sidebarLinks.scss';
 import { Link } from 'react-router-dom';
+import expandIcon from './icons/plusIcon.png';
 
 class SidebarLinks extends Component {
 
@@ -95,7 +96,7 @@ class SidebarLinks extends Component {
                         {subLink.childLinks.length ? <a style={{
                             'color': this.props.sidebarLinksProps.textColor
                         }} className="expandChildMenuIcon" href="#" onClick={() => this.expandChildMenu(key)}>
-                            <span className="glyphicon glyphicon-menu-right"></span>
+                            <span ><img src={expandIcon} /></span>
                         </a> : ''}
 
                         {this.props.sidebarLinksProps.hasReactRouterLinks ?
@@ -133,7 +134,7 @@ class SidebarLinks extends Component {
                         {link.subLinks.length ? <a style={{
                             'color': this.props.sidebarLinksProps.textColor
                         }} className="expandSubMenuIcon" href="#" onClick={() => this.expandSubMenu(key)}>
-                            <span className="glyphicon glyphicon-menu-right"></span>
+                            <span><img src={expandIcon} /></span>
                         </a> : ''}
 
                         {this.props.sidebarLinksProps.hasReactRouterLinks ?

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles/sidebarHeader.scss';
+import closeIcon from './icons/closeIcon.png';
 
 
 class SidebarHeader extends Component {
@@ -20,7 +21,7 @@ class SidebarHeader extends Component {
                             'fontSize': this.props.sidebarHeaderProps.fontSize + 'px',
                             'color': this.props.sidebarHeaderProps.textColor
                         }} className="center sidebarHeader-close-button" onClick={this.props.closeSidebar} href="#">
-                            <span className="glyphicon glyphicon-menu-left"></span>
+                            <span><img src={closeIcon} /></span>
                         </a>
                     </div>
                 </div>

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './styles/sidebar.scss';
-import SidebarHeader from './SidebarHeader.js';
-import SidebarLinks from './SidebarLinks.js';
-import SidebarDescription from './sidebarDescription.js';
-import SidebarProfile from './SidebarProfile.js';
-import SidebarFooter from './SidebarFooter.js';
+import SidebarHeader from './SidebarHeader.jsx';
+import SidebarLinks from './SidebarLinks.jsx';
+import SidebarDescription from './sidebarDescription.jsx';
+import SidebarProfile from './SidebarProfile.jsx';
+import SidebarFooter from './SidebarFooter.jsx';
 import defaultPic from './profilePic.jpg';
+import menuIcon from './icons/menuIcon.png';
 
 
 class Sidebar extends Component {
@@ -147,7 +148,7 @@ class Sidebar extends Component {
             fontSize: fontSize,
             fontStyle: fontStyle,
             sidebarTitle: sidebarTitle,
-            textColor:textColor
+            textColor: textColor
         };
 
         const sidebarContentProps = {
@@ -155,7 +156,7 @@ class Sidebar extends Component {
             fontStyle: fontStyle,
             descriptionContent: descriptionContent,
             descriptionVisible: descriptionVisible,
-            textColor:textColor
+            textColor: textColor
         }
 
         const SidebarProfileProps = {
@@ -164,7 +165,7 @@ class Sidebar extends Component {
             profileVisible: profileVisible,
             ProfileName: ProfileName,
             profileImage: profileImage,
-            textColor:textColor
+            textColor: textColor
         }
 
 
@@ -174,7 +175,7 @@ class Sidebar extends Component {
             fontStyle: fontStyle,
             dataForLinks: dataForLinks,
             onLinkItemClick: onLinkItemClick,
-            textColor:textColor
+            textColor: textColor
         }
 
         var validOrder = this.validateOrderOfContent(orderOfContents)
@@ -191,7 +192,7 @@ class Sidebar extends Component {
             <div>
                 <div style={{ 'top': expandButtonTop + 'px' }} className={`expandIcon ${(!this.state.isSidebarVisible) && 'show'}`}>
                     <a href="#" onClick={this.toggleSidebar}>
-                        <span className={`glyphicon glyphicon-${expandIconStyle}`}></span>
+                        <span><img src={menuIcon} /></span>
                     </a>
                 </div>
                 <div style={{ 'top': top + 'px', 'height': heightOfSidebar + '%' }} className={`sidebarMenu ${(this.state.isSidebarVisible) && 'show'}`} >
